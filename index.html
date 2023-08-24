@@ -2,37 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Livraria Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .book {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+        .book p {
+            font-size: 1rem;
+            color: #777;
+        }
+        .book button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .book button:hover {
+            background-color: #c0392b;
+        }
+    </style>
 </head>
 <body>
-                            <h1> Borracharia </h1>
-
-
-    <p> Esta localizada do centro da cidade com o melhor atendimento da  cidade
-        que niguem ja mais teve.</p>
-
-         <p> Nos iremos trazer uma segurança melhor pra o nosso cliente e para que ele 
-        ele fale bem da nosa loja, temos peças de primeira e produtos muito bons que
-        ira fazer diferença no seu carro e moto.</p>
-
-        <p></p> Nos iremos deixar seu carro como se fosse novo e não vai ter outro lugar como
-        esse, esses são alguns de nossos serviços.</p>
-                                 
-                            <p>  balanceamento: R$ 1.840,00</p>
-
-                            <p>revisão do automovel: R$ 500,00</p>
-
-                            <p> seguro do carro: R$ 250,00</p>
-
-                            <p>jogo de rodas: R$ 400,00</p>
-
-                            <p> alinhamento: R$ 1.000,00</p>
-
-                            <p> desconto de  ate 80%</p>
-
-        </p>
+    <header>
+        <h1>Livraria Online</h1>
+        <p>Encontre os melhores livros aqui!</p>
+    </header>
+    <div class="container">
+        <div class="book">
+            <img src="livro4.jpg" alt="Livro 1">
+            <h3>Nome do Livro 1</h3>
+            <p>Autor do Livro 1</p>
+            <p>R$ 29,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="book">
+            <img src="livro5.jpg" alt="Livro 2">
+            <h3>Nome do Livro 2</h3>
+            <p>Autor do Livro 2</p>
+            <p>R$ 24,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="book">
+            <img src="livro6.jpg" alt="Livro 3">
+            <h3>Nome do Livro 3</h3>
+            <p>Autor do Livro 3</p>
+            <p>R$ 19,99</p>
+            <button>Comprar</button>
+        </div>
+    </div>
 </body>
 </html>
- 
